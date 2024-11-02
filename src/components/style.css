@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff7d1;
+}
+.checkBox {
+  margin-right: 8px;
+  margin-bottom: -7px;
+}
+.heading {
+  background-color: blueviolet;
+  color: white;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+}
+.navbar {
+  padding: 10px;
+  background: blueviolet;
+  font-size: larger;
+  font-family: "Oswald", serif;
+}
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.navbar ul li {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+}
+
+.toDoBox {
+  font-family: "Oswald", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 400px;
+  height: 450px;
+  margin: 40px auto;
+  border-radius: 5px;
+  position: relative;
+  transition: all 1s;
+  background-color: white;
+}
+.toDoBox:hover {
+  transform: scale(1.02);
+}
+.aboutBox {
+  font-family: "Oswald", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 500px;
+  margin: 40px auto;
+  border-radius: 5px;
+}
+.task {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.toDoList {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 300px;
+  height: 356px;
+  overflow: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px;
+  border-radius: 5px;
+}
+.taskInput {
+  font-size: larger;
+  padding: 2px;
+}
+.addBtn {
+  font-family: "Oswald", serif;
+  font-weight: 400;
+  position: absolute;
+  color: white;
+  background: blueviolet;
+  border: none;
+  border-radius: 19px;
+  padding: 6px;
+  width: 121px;
+  height: 44px;
+  font-size: 18px;
+
+  bottom: -28px;
+}
+.addBtn:hover {
+  cursor: pointer;
+}
+.addTaskBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.aboutList {
+  list-style: none;
+  border-top: 1px solid black;
+}
+.aboutList li {
+  padding: 10px;
+}
+.aboutBox {
+  background-color: white;
+}
